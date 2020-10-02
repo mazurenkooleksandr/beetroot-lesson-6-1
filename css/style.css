@@ -1,0 +1,148 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    width: 100%;
+    max-width: 65px;
+    height: 980px;
+    margin-left: 14px;
+    background-color: #ff0000;
+    opacity: 0.1;
+    display: inline-block;
+}
+
+.text-header {
+    color: #898f99;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+}
+
+.hello-header {
+    color: #0ec8cb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+}
+
+.main-header {
+    color: #999999;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.text-conteiner {
+    color: #1b1b1b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-text {
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.text-conteiner-web {
+    color: #1b1b1b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.first-conteiner {
+    width: 100%;
+    max-width: 231px;
+    height: 480px;
+    text-align: center;  
+    line-height: 70px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+}
+
+.main-text-web {
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 10px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 14px;
+
+}
+
+.header {
+    width: 100%;
+    max-width: 542px;
+    height: 167px;
+    text-align: center;  
+    line-height: 70px;
+    margin-top: -960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+svg {
+    padding-top: 50px;
+}
+
+.first-conteiner:hover {
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+}
+
+.main-text:hover {
+    color: #e4dfdf;
+}
+
+.main-text-web:hover {
+    color: #e4dfdf;
+}
+
+.text-conteiner:hover {
+    color: #e4dfdf;
+}
+
+.text-conteiner-web:hover {
+    color: #e4dfdf;
+}
+
+svg:hover{
+    fill: #e4dfdf;
+}
+
+
+
+
+
