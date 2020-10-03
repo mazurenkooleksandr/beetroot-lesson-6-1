@@ -83,6 +83,8 @@ body {
     line-height: 70px;
     border: 1px solid #ececec;
     background-color: #f7f7f7;
+    z-index: 100;
+    background: transparent;
 }
 
 .main-text-web {
@@ -99,6 +101,7 @@ body {
     justify-content: center;
     margin-top: 180px;
     margin-left: 14px;
+    
 
 }
 
@@ -122,24 +125,16 @@ svg {
     background-color: #0ec8cb;
 }
 
-.main-text:hover {
-    color: #e4dfdf;
+.first-conteiner:hover  .main-text{
+    color: #ffe6e6;
 }
 
-.main-text-web:hover {
-    color: #e4dfdf;
+.first-conteiner:hover  .text-conteiner{
+    color:#ffe6e6;
 }
 
-.text-conteiner:hover {
-    color: #e4dfdf;
-}
-
-.text-conteiner-web:hover {
-    color: #e4dfdf;
-}
-
-svg:hover{
-    fill: #e4dfdf;
+.first-conteiner:hover  svg {
+    fill: #ffe6e6;
 }
 
 
